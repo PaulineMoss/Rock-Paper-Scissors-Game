@@ -73,7 +73,7 @@ body{
     grid-template-areas:
         "paper scissor"
         "rock rock";
-    visibility: hidden;
+    visibility: visible;
 }
 
 button{
@@ -177,7 +177,7 @@ button{
     align-items: center;
     width: 1000px;
     max-width: 100%;
-    visibility: visible;
+    visibility: hidden;
 }
 
 #game-container div{
