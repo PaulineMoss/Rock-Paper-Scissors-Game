@@ -1,0 +1,46 @@
+@media screen and (max-width: 375px){
+
+.score-container{
+    width: 70%;
+}
+
+.title{
+    line-height: 0.8;
+    font-size: 25px;
+    display: flex;
+}
+
+.rules{
+    display: flex;
+    align-items: center;
+    bottom: 5%;
+    left: unset;
+}
+
+#selction-container{
+    transform: scale(0.8);
+    top: 30vh;
+}
+
+#game-container{
+    transform: scale(0.5);
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#game-container p{
+    line-height: 2rem;
+}
+
+#user-choice{
+    margin-bottom: 20%;
+}
+
+.result{
+    order: 1;
+    margin-top: 30%;
+    transform: scale(1.5);
+}
+
+}
